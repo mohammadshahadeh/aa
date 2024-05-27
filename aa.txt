@@ -1,0 +1,17 @@
+import UIKit
+
+class ViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+        
+        // Create a label
+        let label = UILabel(frame: CGRect(x: 100, y: 100, width: 200, height: 50))
+        label.text = "Hello, World!"
+        label.textAlignment = .center
+        
+        // Add the label to the view
+        self.view.addSubview(label)
+    }
+}
